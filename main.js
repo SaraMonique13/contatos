@@ -8,5 +8,8 @@ function cadastrar(){
 
     if(nome.value == 0 && tel.value == 0){
         window.alert('Por favor, insira os dados primeiro')
+    }else{
+
+        
     }
 }
