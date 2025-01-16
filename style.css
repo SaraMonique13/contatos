@@ -52,18 +52,12 @@ input{
     font-weight: bold;
 }
 
-
-div table{
-    display: flex;
-    position: absolute;
-
-    top: 53%;
-    left:15%;
+table th{
+    background-color: rgb(252, 178, 190);
 }
 
-
-table th , tr{
-    width: 200px;
+table th , td{
+    width: 300px;
     padding:5px;
     border: 1px solid black;
 }
