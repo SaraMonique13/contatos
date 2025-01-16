@@ -13,7 +13,11 @@ body{
 
 h1{
     text-align: center;
-    margin: 150px 0 50px 0;
+    margin: 100px 0 50px 0;
+}
+
+p{
+    margin-bottom: 10px;
 }
 
 section{
@@ -21,8 +25,12 @@ section{
     margin: auto;
     background-color: white;
     max-width: 600px;
+    height: 400px;
     padding: 50px;
+    border-radius: 10px;
     text-align: center;
+
+    position: relative;
 }
 
 form{
@@ -44,6 +52,21 @@ input{
     font-weight: bold;
 }
 
+
+div table{
+    display: flex;
+    position: absolute;
+
+    top: 53%;
+    left:15%;
+}
+
+
+table th , tr{
+    width: 200px;
+    padding:5px;
+    border: 1px solid black;
+}
 
 
 
